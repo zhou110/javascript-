@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // swich case 应用得场景收到局限性； 也可以应用到表单验证中 需要结合正则来使用；把正则作为case 后面的值。然后输入一个结果
+        // switch(我们输入的条件){
+        //   case 规则值： 在这个规则下输出一个内容；
+        //    break;
+        //    case 规则值2： 在这个规则下输出另一个内容; break; defaul: 以上规则都不符合情况执行一个内容
+        // }
+        var date = new Date();
+        var weekDay = date.getDay();
+        console.log(weekDay);
+        switch (weekDay) {
+            case 1:
+                alert('学习循环语句')
+                break;
+            case 2:
+                alert('学习正则表达式')
+                break;
+            case 3:
+                alert('学习函数')
+                break;
+            case 4:
+                alert('学习Dom')
+                break;
+            case 5:
+                alert('学习Bom')
+                break;
+            case 6:
+                alert('自习')
+                break;
+            case 7:
+                alert('吃喝玩乐')
+                break;
+            default:
+                alert('考试');
+                break;
+        }
+
+
+
+    </script>
+</body>
+
+</html>
